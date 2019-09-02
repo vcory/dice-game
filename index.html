@@ -4,17 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = "stylesheet" type = "text/css" href = "main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Kalam:300&display=swap" rel="stylesheet">
     <title>Dice Game</title>
 </head>
 <body>
-    <h>The Dice Game</h1>
+    <h1>The Dice Game</h1>
+    <div class="rules">
+        <ul>
+            <li>Roll the dice to start the game</li>
+            <li>If you get a 1 - you lose</li>
+            <li>Your goal is to get a total over 20</li>
+        </ul>
+        
+    </div>
     <div id="die1" class="dice"></div>
     <div id="die2" class="dice"></div>
-    <div class="playerScore">
+    <!-- <div class="playerScore">
         <h2>Player 1</h2>
         <h2>Player 2</h2>
-    </div>
-    <button onclick="rollDie()" id="rollButton">Roll Die</button>
+    </div> -->
+    <button onclick="rollDice()" id="rollButton">Roll Die</button>
  
     <div></div>
 

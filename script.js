@@ -1,5 +1,5 @@
-let player1 = prompt("What is your name, player 1?");
-let player2 = prompt("What is your name, player 2?");
+// let player1 = prompt("What is your name, player 1?");
+// let player2 = prompt("What is your name, player 2?");
 let rollButton = document.getElementById("rollButton");
 
 
